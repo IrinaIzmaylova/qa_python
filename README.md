@@ -1,4 +1,4 @@
-# qa_python
+
 import pytest
 from main import BooksCollector 
 
@@ -66,5 +66,4 @@ class TestBooksCollector:
         
         books_collector.add_new_book(book_name)
         books_collector.set_book_genre(book_name, expected)
-        assert books_collector.get_book_genre(book_name) == expected
->>>>>>> a516cb7 (Initial commit)
+        assert books_collector.get_book_genre(book_name) == exp
